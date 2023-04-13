@@ -9,7 +9,5 @@ Features for user:
   - Elliptical
   - Free Pencil
 - Move feature for rectangle and elliptical
-- User can draw free with pencil.
-
 ### Mert Can Gönen
 ### 12th April 2023
