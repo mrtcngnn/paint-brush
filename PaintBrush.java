@@ -87,10 +87,10 @@ public class PaintBrush extends JFrame implements MouseInputListener {
         this.colorPanel.add(blackPanel);
         // Button Panel
         this.buttonPanel = new JPanel(new FlowLayout());
-        this.rectangleButton = new JButton("Dikdortgen Ciz");
-        this.ellipticalButton = new JButton("Oval Ciz");
-        this.pencilButton = new JButton("Kalemle Ciz");
-        this.moveButton = new JButton("Tasi");
+        this.rectangleButton = new JButton("Draw Rectangle");
+        this.ellipticalButton = new JButton("Draw Elliptical");
+        this.pencilButton = new JButton("Free Draw");
+        this.moveButton = new JButton("Move");
         this.addActionListenerToButtons();
         this.buttonPanel.add(rectangleButton);
         this.buttonPanel.add(ellipticalButton);
@@ -383,10 +383,10 @@ public class PaintBrush extends JFrame implements MouseInputListener {
                     if (this.x2 < this.movedW) {
                         this.x2 = this.movedW;
                     }
-                    if (this.x2 > this.windowWidth - (this.resultItem.width - this.movedW)) { // saga sigmaz
+                    if (this.x2 > this.windowWidth - (this.resultItem.width - this.movedW)) {
                         this.x2 = this.windowWidth - (this.resultItem.width - this.movedW);
                     }
-                    if (this.y2 > this.windowHeight - (this.resultItem.height - this.movedH)) { // asagi sigmaz
+                    if (this.y2 > this.windowHeight - (this.resultItem.height - this.movedH)) {
                         this.y2 = this.windowHeight - (this.resultItem.height - this.movedH);
                     }
                     this.resultItem.x = this.x2 - this.movedW;
