@@ -10,4 +10,3 @@ Features for user:
   - Free Pencil
 - Move feature for rectangle and elliptical
 ### Mert Can Gönen
-### 12th April 2023
